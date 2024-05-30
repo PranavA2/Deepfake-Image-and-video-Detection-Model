@@ -1,0 +1,85 @@
+.team-info p{
+    text-align: justify
+}
+
+.section-white{
+    background-color: #fff;
+    padding: 35px 0;
+}
+
+.team-item{
+    background-color: #f4f5f6;
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 8px 8px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.team-item:hover{
+    background: #3956de;
+    color: white;
+}
+
+.team-item h3{
+    margin: 20px 0 1px 0 !important;
+    color: #454545;
+    font-size: 18pxs;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.team-item h5{
+    white-space: pre-line;
+}
+
+.team-item:hover h3{
+    color: #ddd;
+}
+
+.team-info{
+    display: block;
+    margin-bottom: 0;
+}
+
+.team-info p{
+    color: #acacac;
+    font-style: italic;
+}
+
+.team-info::after{
+    background: #008aff;
+    background: -webkit-linear-gradient(
+        135deg, #6B02FF 0%, #985BEF 100%
+    );
+    background:  -o-linear-gradient(
+        135deg, #6B02FF 0%, #985BEF 100%
+    );
+    background:  -moz-linear-gradient(
+        135deg, #6B02FF 0%, #985BEF 100%
+    );
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width: 50px;
+    height: 3px;
+    margin-top: -20px;
+}
+
+.img-team{
+    max-width: 140px;
+    padding: 6px 6px;
+    background-color: #dedede;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    align-self: center;
+}

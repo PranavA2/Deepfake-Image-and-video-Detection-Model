@@ -1,0 +1,126 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .step {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .step h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .step p {
+    font-size: 16px;
+  }
+  
+  .step-icon {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto 15px;
+  }
+  
+  .step-icon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    
+    .step {
+      padding: 15px;
+    }
+  
+    .step-icon {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+  
+    .step h4 {
+      font-size: 18px;
+    }
+  
+    .step p {
+      font-size: 14px;
+    }
+  }
+
+  /* Center the content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Style images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style text */
+h2 {
+  margin-bottom: 0px;
+}
+
+.text-start {
+  text-align: left;
+}
+
+/* Style buttons */
+.btn-primary {
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .col {
+    margin-bottom: 30px;
+  }
+
+  img {
+    margin-bottom: 20px;
+  }
+}
+
+  
